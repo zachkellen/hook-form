@@ -63,7 +63,7 @@ const UserForm = (props) => {
                 <div>
                     <label>First Name: </label>
                     <input type='text' onChange={handleFirstName} name='firstName'/>
-                    { firstNameError && firstName.length !== 0 && "Name must have at least 3 characters!"}
+                    { firstNameError && firstName.length !== 0 && "Name must have at least 2 characters!"}
                 </div>
                 <div>
                     <label>Last Name: </label>
